@@ -23,3 +23,13 @@
 # 3. logout
 # URL   localhost:8000/api/logout
 # logout user by token that stored in cookie
+
+
+
+# Facing issue in creating superuser
+# python manage.py createsuperuser
+
+
+
+# working on endpoint to update password or user
+
