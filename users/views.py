@@ -27,7 +27,7 @@ def login_view(request):
         raise AuthenticationFailed('User not found!')
 
     if not user.check_password(password):
-        raise AuthenticationFailed('Incorrect password!')
+        raise AuthenticationFailed('Incorrect password')
 
     payload = {
         'id': user.id,
