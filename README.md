@@ -1,4 +1,7 @@
-# django-auth
+# Django API Authentication using JWT Tokens
+
+
+
 #  End points
 # 1. Register User
 # URL   localhost:8000/api/register
